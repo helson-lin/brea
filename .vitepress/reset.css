@@ -1,0 +1,14 @@
+
+/* @import url('https://fonts.font.im/css?family=Ubuntu'); */
+@import url('https://fonts.font.im/css?family=Do+Hyeon');
+
+
+body {
+    font-family: 'Do Hyeon', sans-serif;
+}
+
+.VPFeatures .container {
+    padding: 30px;
+    box-sizing: border-box;
+    backdrop-filter: blur(10px);
+}
