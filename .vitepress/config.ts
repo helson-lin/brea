@@ -7,18 +7,18 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首页', link: '/' },
-      { text: 'Javascript', link: '/javascript/', icon: '🌟' }
+      { text: 'Javascript', link: '/javascript/' },
+      { text: 'Linux', link: '/linux/' },
+      { text: '语', link: '/talk/' },
     ],
-
     sidebar: [
       {
         text: 'Javascript',
         items: [
           { text: 'String', link: '/javascript/String' }
         ]
-      }
+      },
     ],
-
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     ]
