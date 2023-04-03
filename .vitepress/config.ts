@@ -23,7 +23,8 @@ export default defineConfig({
           text: 'Javascript基础',
           items: [
             { text: 'String类型的基本方法', link: '/javascript/String' },
-            { text: 'Number类型的基本方法', link: '/javascript/Number' }
+            { text: 'Number类型的基本方法', link: '/javascript/Number' },
+            { text: 'Object原型上的方法', link: '/javascript/Object' }
           ]
         },
         {
@@ -33,7 +34,8 @@ export default defineConfig({
             { text: '内存回收机制♻️', link: '/javascript/MemoryRecoveryMechanism' },
             { text: '闭包问题', link: '/javascript/Closures' },
             { text: '深入理解Promise', link: '/javascript/PromiseBase' },
-            { text: 'Promise原型方法', link: '/javascript/Promise' }
+            { text: 'Promise原型方法', link: '/javascript/Promise' },
+            { text: '设计模式', link: '/javascript/Design' }
           ]
         }
       ],
@@ -45,8 +47,20 @@ export default defineConfig({
       ],
       '/talk/': [
         {
+          text: '工具库积累',
+          link: '/talk/NpmRe'
+        },
+        {
           text: '项目常见问题',
           link: '/talk/ProjectProblem'
+        },
+        {
+          text: 'PM2启动Node之外的项目',
+          link: '/talk/pm2'
+        },
+        {
+          text: 'MP4转RTSP推流（ffmpeg和easydarwin）',
+          link: '/talk/RtspPush'
         }
       ]
     },

@@ -3,6 +3,9 @@ title: Number的基本方法
 ---
 # Number
 
+::: warning
+> 注意所有的标🌟的方法都是常用的方法
+:::
 ## Number的属性
 
 
@@ -71,4 +74,12 @@ console.log(fits(5, 11));
 Number.isNaN() 方法确定传递的值是否为 NaN，并且检查其类型是否为 Number。它是原来的全局 isNaN() 的更稳妥的版本。
 
 ```javascript
+let c;
+const num1 = 123 // 123
+const num2 =  c / num1 // NAN
+const num3 = num1 / false // Infinity
+console.log(Number.isNaN(num1), Number.isNaN(num2), Number.POSITIVE_INFINITY === num3)
 ```
+
+### Number.parseFloat() 🌟🌟
+parseFloat() Number.parseFloat() 方法可以把一个字符串解析成浮点数。该方法与全局的 parseFloat() 函数相同，并且处于 ECMAScript 6 规范中（用于全局变量的模块化）。

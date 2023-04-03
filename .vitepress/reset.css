@@ -18,3 +18,8 @@ body {
     height: 40px;
     margin: 0 auto;
 }
+
+.brea-a {
+    color: var(--vp-c-green);
+    border-bottom: 1px solid;
+}
