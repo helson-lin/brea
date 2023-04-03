@@ -1,11 +1,12 @@
 ---
+title: String常用方法
 outline: deep
 ---
 
 # String
-
+::: warning
 > 注意所有的标🌟的方法都是常用的方法
-
+:::
 ## charAt方法 🌟
 
 charAt(index)：返回字符串中指定位置的字符。

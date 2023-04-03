@@ -1,5 +1,5 @@
 
-/* @import url('https://fonts.font.im/css?family=Ubuntu'); */
+/* custom css */
 @import url('https://fonts.font.im/css?family=Do+Hyeon');
 
 
@@ -11,4 +11,10 @@ body {
     padding: 30px;
     box-sizing: border-box;
     backdrop-filter: blur(10px);
+}
+
+.icon-brea {
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
 }

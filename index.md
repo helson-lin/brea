@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "Lin's"
-  text: "learn blog"
+  text: "learn note"
   tagline: loadding
   actions:
     - theme: brand
@@ -15,10 +15,10 @@ hero:
     #   link: /api-examples
 
 features:
-  - icon: <a href="https://github.com/helson-lin/ffandown" target="_blank"><img src="./ffandown.png" style="height:80%;"/></a>
+  - icon: <a href="https://github.com/helson-lin/ffandown" target="_blank"><img src="./ffandown.png" class="icon-brea"/></a>
     title: <a href="https://github.com/helson-lin/ffandown" target="_blank">ffandowndown</a>
     details: ffandown是一个m3u8下载器:&nbsp;支持m3u8视频下载,以及rtmp\rtsp录播
-  - icon: <a href="https://github.com/helson-lin/wallhaven_downloader" target="_blank"><img src="./gallery.png" style="height:80%;"/></a>
+  - icon: <a href="https://github.com/helson-lin/wallhaven_downloader" target="_blank"><img src="./gallery.png" class="icon-brea"/></a>
     title:  <a href="https://github.com/helson-lin/wallhaven_downloader" target="_blank">wallhaven_downloader</a>
     details: wallhaven_downloader是wallhaven壁纸批量下载小工具
   - icon: ⚙️

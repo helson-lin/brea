@@ -1,7 +1,7 @@
 ## Promise对象的方法
 `Promise.all()`, `Promise.allSettled()`, `Promise.any()` 和 `Promise.race()` 都是 JavaScript 中用于处理多个 Promise 的方法。它们的区别和用途如下：
 
-1. `Promise.all()`
+## `Promise.all()`
 
 `Promise.all()` 接收一个 Promise 数组作为参数，当所有 Promise 都成功时，返回一个包含所有 Promise 结果的数组；当其中一个 Promise 失败时，返回该 Promise 的错误信息。`Promise.all()` 的用途是在所有 Promise 正确返回结果后，再执行后续的操作。比如：
 
@@ -20,7 +20,7 @@ Promise.all([promise1, promise2, promise3])
   });
 ```
 
-2. `Promise.allSettled()`
+## `Promise.allSettled()`
 
 `Promise.allSettled()` 接收一个 Promise 数组作为参数，不管 Promise 成功还是失败，都返回一个包含所有 Promise 结果的数组。`Promise.allSettled()` 的用途是在所有 Promise 执行完毕后，再执行后续的操作。比如：
 
@@ -36,7 +36,7 @@ Promise.allSettled([promise1, promise2, promise3])
   });
 ```
 
-3. `Promise.any()`
+## `Promise.any()`
 
 `Promise.any()` 接收一个 Promise 数组作为参数，当其中一个 Promise 成功时，返回该 Promise 的结果；当所有 Promise 都失败时，返回所有 Promise 的错误信息。`Promise.any()` 的用途是在任意一个 Promise 正确返回结果后，就执行后续的操作。比如：
 
@@ -56,7 +56,7 @@ Promise.any([promise1, promise2, promise3])
   });
 ```
 
-4. `Promise.race()`
+## `Promise.race()`
 
 `Promise.race()` 接收一个 Promise 数组作为参数，当其中一个 Promise 状态改变时（成功或失败），立即返回该 Promise 的结果。`Promise.race()` 的用途是在最快的 Promise 返回结果后，立即执行后续的操作。比如：
 

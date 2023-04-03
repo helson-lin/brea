@@ -1,7 +1,7 @@
 ---
 layout: doc
+title: 语
 ---
-
 
 ## 语
 

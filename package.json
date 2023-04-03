@@ -5,6 +5,8 @@
     "docs:preview": "vitepress preview"
   },
   "devDependencies": {
-    "vitepress": "^1.0.0-alpha.64"
+    "flexsearch": "^0.7.31",
+    "vitepress": "^1.0.0-alpha.64",
+    "vitepress-plugin-search": "1.0.4-alpha.19"
   }
 }
