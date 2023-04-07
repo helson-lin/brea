@@ -62,7 +62,7 @@ console.log(c)
 为什么会返回`name: helson123`呢？查看MDN可以知道`Object.assign` 方法只会拷贝源对象自身的并且可枚举的属性到目标对象。该方法使用源对象的`[[Get]]`和目标对象的`[[Set]]`，所以它会调用相关 getter 和 setter。
 
 ::: warning
-`Object.assign`不是<span class="brea-a">[深拷贝](/javascript/cloneDeep)</span>，拷贝的对象属性是浅拷贝
+`Object.assign`不是<span class="brea-a">[深拷贝](/javascript/CloneDeep)</span>，拷贝的对象属性是浅拷贝
 :::
 
 ***

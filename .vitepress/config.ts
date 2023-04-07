@@ -15,6 +15,7 @@ export default defineConfig({
       { text: '首页', link: '/', },
       { text: 'Javascript', link: '/javascript/' },
       { text: 'Linux', link: '/linux/' },
+      {  text: '业务', link: '/bussiness/' },
       { text: '语', link: '/talk/' },
     ],
     sidebar: {
@@ -24,7 +25,7 @@ export default defineConfig({
           items: [
             { text: 'String类型的基本方法', link: '/javascript/String' },
             { text: 'Number类型的基本方法', link: '/javascript/Number' },
-            { text: 'Object原型上的方法', link: '/javascript/Object' }
+            { text: 'Object原型上的方法', link: '/javascript/Object' },
           ]
         },
         {
@@ -36,6 +37,14 @@ export default defineConfig({
             { text: '深入理解Promise', link: '/javascript/PromiseBase' },
             { text: 'Promise原型方法', link: '/javascript/Promise' },
             { text: '设计模式', link: '/javascript/Design' }
+          ]
+        },
+      ],
+      '/bussiness': [
+        {
+          text: '业务',
+          items: [
+            { text: 'SSO', link: '/bussiness/sso' },
           ]
         }
       ],
