@@ -14,6 +14,7 @@ export default defineConfig({
     nav: [
       { text: '首页', link: '/', },
       { text: 'Javascript', link: '/javascript/' },
+      {  text: 'Vue', link: '/vue/' },
       { text: 'Linux', link: '/linux/' },
       {  text: '业务', link: '/bussiness/' },
       { text: '语', link: '/talk/' },
@@ -45,6 +46,14 @@ export default defineConfig({
           text: '业务',
           items: [
             { text: 'SSO', link: '/bussiness/sso' },
+          ]
+        }
+      ],
+      '/vue': [
+        {
+          text: 'Vue3',
+          items: [
+            { text: '基础知识', link: '/vue/Base' },
           ]
         }
       ],
