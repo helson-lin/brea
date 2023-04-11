@@ -45,7 +45,8 @@ export default defineConfig({
         {
           text: '业务',
           items: [
-            { text: 'SSO', link: '/bussiness/sso' },
+            { text: 'SSO单点登录', link: '/bussiness/sso' },
+            { text: 'webWorker预缓存', link: '/bussiness/Worker' },
           ]
         }
       ],
@@ -54,6 +55,15 @@ export default defineConfig({
           text: 'Vue3',
           items: [
             { text: '基础知识', link: '/vue/Base' },
+          ]
+        },
+        {
+          text: 'Vue源码学习',
+          items: [
+            {
+              text: 'keep-alive组件',
+              link: '/vue/keep-alive'
+            }
           ]
         }
       ],

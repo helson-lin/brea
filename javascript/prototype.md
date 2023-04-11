@@ -27,8 +27,6 @@ console.log(fn ==== fn.prototype.contructor)
 
 ![](/image/stickPicture5.png)
 
-![](/image/stickPicture6.png)
-
 可以看到Person构造函数的prototype指向的是的Person.prototype也就是原型对象
 
 person1和person2的原型就是Person.prototype
