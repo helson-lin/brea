@@ -25,3 +25,4 @@ features:
     title: vite-plugin-code-locate
     details: vite-plugin-code-locate是一个vite插件，可以通过点击dom在快速定位源代码位置在vscode内自动打开
 ---
+
