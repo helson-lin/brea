@@ -89,6 +89,10 @@ export default defineConfig({
         {
           text: 'MP4转RTSP推流（ffmpeg和easydarwin）',
           link: '/talk/RtspPush'
+        },
+        {
+          text: '实际开发过程中的一些优化',
+          link: '/talk/jsOptimize'
         }
       ]
     },
